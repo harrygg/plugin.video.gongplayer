@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.btvplus" name="Gong Player" version="0.0.1" provider-name="HarryDoubleG">
+<addon id="plugin.video.gongplayer" name="Gong Player" version="0.0.1" provider-name="HarryDoubleG">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.beautifulsoup4" version="4.8.2"/>
@@ -7,6 +7,8 @@
     <import addon="script.module.garepobg" version="0.1.4" optional="true"/>
     <import addon="script.module.requests" version="2.25.1"/>
     <import addon="script.module.kodibgcommon" version="1.0.10"/>
+    <import addon="inputstream.adaptive" version="20.3.1"/>
+<!--    <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>-->
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
