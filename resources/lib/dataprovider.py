@@ -1,8 +1,8 @@
 import xbmcgui
 import xbmcplugin
-from kodibgcommon.logging import log_info, log_error, log_debug
+from kodibgcommon.logging import log_info, log_error
 from kodibgcommon.notifications import notify_error
-from kodibgcommon.utils import get_addon_handle, make_url, add_listitem, add_listitem_folder, add_listitem_unresolved
+from kodibgcommon.utils import get_addon_handle, make_url, add_listitem_folder
 from .dataaccess import get_categories, get_products, resolve_mpd_url
 
 

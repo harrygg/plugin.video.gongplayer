@@ -6,9 +6,8 @@
     <import addon="script.module.html5lib" version="1.0.1"/>
     <import addon="script.module.garepobg" version="0.1.4" optional="true"/>
     <import addon="script.module.requests" version="2.25.1"/>
-    <import addon="script.module.kodibgcommon" version="1.0.10"/>
+    <import addon="script.module.kodibgcommon" version="1.0.11"/>
     <import addon="inputstream.adaptive" version="20.3.1"/>
-<!--    <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>-->
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -16,9 +15,9 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language>bg</language>
-    <summary lang="en">This Kodi Add-on provides a minimal interface for gong.bg/player</summary>
+    <summary lang="en">This Kodi Add-on provides a minimal interface for watching video content from gong.bg/player</summary>
 	<summary lang="bg">Kodi приставка за гледане на видео съдържание от сайта gong.bg/player</summary>
-    <description lang="en">This Kodi Add-on provides a minimal interface for gong.bg/player</description>
+    <description lang="en">This Kodi Add-on provides a minimal interface for watching video content from gong.bg/player</description>
     <description lang="bg">Приставка за гледане на видео съдържание от сайта gong.bg/player</description>
     <forum>https://kodibg.org/forum/thread-145.html</forum>
     <website>https://github.com/harrygg/plugin.video.gongplayer</website>
@@ -27,7 +26,7 @@
 		<fanart>resources/fanart.jpg</fanart>
 		<fanart>screenshot/screenshot-01.jpg</fanart>
 	</assets>
-	<news>v0.0.1 (07/03/2024)
+	<news>v0.0.1 (10/03/2024)
       [done] Първа работеща версия!
     </news>
   </extension>
