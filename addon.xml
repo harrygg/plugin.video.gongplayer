@@ -30,4 +30,5 @@
       [done] Първа работеща версия!
     </news>
   </extension>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
