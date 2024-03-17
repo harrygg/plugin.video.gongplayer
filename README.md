@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/harrygg/plugin.video.gongplayer/master/resources/icon.png" alt="GongPlayer logo">
+<img width="150" align="right" src="https://raw.githubusercontent.com/harrygg/plugin.video.gongplayer/master/resources/icon.png" alt="GongPlayer logo">
 
 # Коди добавка предоставяща минимален интерфейс за гледане на видео съдържание от сайта btvplus.bg
 
